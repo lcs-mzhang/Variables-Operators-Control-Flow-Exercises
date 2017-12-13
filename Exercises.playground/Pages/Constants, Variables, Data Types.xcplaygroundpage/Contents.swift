@@ -35,7 +35,10 @@
  
  */
 // Answer Question 1 below
-
+let firstName = "Matt"
+let lastName = "Zhang"
+var currentGrade = 96.3
+var reportCardGrade = 96.3
 /*:
  ### Question 2
  
@@ -47,6 +50,10 @@
  
  */
 // Answer Question 2 below
+let myAge : Int = 15
+let otherAge : Double = 40
+
+let averageAge : Double = (Double(myAge)+otherAge)/2
 
 
 /*:
@@ -55,7 +62,7 @@
  Create a variable that will track a person's favourite hobby. Select whatever name you feel is appropriate, but use the camel case convention when you name this variable.
  */
 // Answer Question 3 below
-
+var hobby : String
 
 /*:
  ### Question 4
@@ -65,8 +72,8 @@
  Use multiple `print` statements below to answer this question.
  */
 // Answer Question 4 below
-
-
+print("The value of a constant is not expected to change, which allows the program to save space and speed up.")
+print("It also eliminates errors. The compiler will tell you if you attempt to change the value of a constant.")
 /*:
  ### Question 5
  
@@ -76,7 +83,7 @@
  
  */
 // Answer Question 5 below
-
+let ransomDemand = 1_000_000
 /*:
  ### Question 6
  
@@ -96,8 +103,12 @@
  
  */
 // Answer Question 6 below
+var year = 2017
+let text = "a short piece of text"
 
+//year = text
 
+print("The error is a syntax error because the data types are incompatible with each other.")
 /*:
  ### Question 7
  
@@ -107,7 +118,7 @@
  */
 // Answer Question 7 below
 
-
+print("A type-safe language strictly enforces data types, meaning that it is less prone for crashes from errors in the code.")
 
 
 //: [Next](@next)
