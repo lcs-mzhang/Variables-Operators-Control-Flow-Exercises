@@ -167,7 +167,15 @@ else
  */
 
 // Answer Question 6 below
-
-
-
-
+var finalGrade : Double = 96
+switch finalGrade
+{
+case 50...59 :
+    print("Should've booked more Grove Times.")
+case 60...79 :
+    print("Hmm, not bad, but could be better.")
+case 80...100 :
+    print("You learned a lot, well done!")
+default:
+    print("I literally can't even.")
+}
